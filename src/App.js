@@ -12,10 +12,7 @@ import Kbc from './pages/Kbc'
 import Password from './pages/Password'
 import Todo from './pages/Todo'
 import TodoF from './pages/TodoF'
-import Resume from './pages/Resume'
-import ProfessionalE from './pages/ProfessionalE'
-import Education from './pages/Education'
-
+import Context from './pages/Context'
 
 
 function App() {
@@ -34,11 +31,9 @@ function App() {
       <Route path='/Password' element={<Password/>}></Route>
       <Route path='/Todo' element={<Todo/>}></Route>
       <Route path='/TodoF' element={<TodoF/>}></Route>
-      <Route path='/Resume' element={<Resume/>}></Route>
-      <Route path='/ProfessionalE' element={<ProfessionalE/>}></Route>
-      <Route path='/Education' element={<Education/>}></Route>
+      <Route path='/Context' element={<Context/>}></Route>
 
-    </Routes>
+   </Routes>
    </HashRouter>
   )
 }
